@@ -37,10 +37,12 @@ Welcome to my digital command center — a hacker-themed interface styled in pur
 | Recon Modules     | OSINT Tools, Metadata Layers, Target Dossier Builder  |
 
 ---
-##🧠 About Me
+## 🧠 About Me
+
 I'm Mystique — student, strategist, and aspiring hacker. With roots in code and a flair for digital resilience, I engineer recon workflows, DSA simulations, and exploit environments that reflect both discipline and creativity. If it runs in the shadows and sparks curiosity, I’m likely building it or tracing it.
 
-##🌍 Contact
+## 🌍 Contact
+
 Let’s connect or collaborate on recon ops, backend engineering, trading strategies, or psychological profiling for code and finance. Tactical synergy welcome.
 
 
@@ -52,7 +54,8 @@ Let’s connect or collaborate on recon ops, backend engineering, trading strate
 
 📜 LinkedIn: https://linkedin.com/in/
 
-##🧾 License
+## 🧾 License
+
 MIT License — fork, evolve, remix. Just respect the work, cite the creator, and keep things ethical.
 
 “Reconstruct. Reconfigure. Reconquer.” — Digital mantra for trace-based resilience
