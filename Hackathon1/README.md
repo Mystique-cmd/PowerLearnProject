@@ -37,6 +37,27 @@ Welcome to my digital command center — a hacker-themed interface styled in pur
 | Recon Modules     | OSINT Tools, Metadata Layers, Target Dossier Builder  |
 
 ---
+##🧠 About Me
+I'm Mystique — student, strategist, and aspiring hacker. With roots in code and a flair for digital resilience, I engineer recon workflows, DSA simulations, and exploit environments that reflect both discipline and creativity. If it runs in the shadows and sparks curiosity, I’m likely building it or tracing it.
+
+##🌍 Contact
+Let’s connect or collaborate on recon ops, backend engineering, trading strategies, or psychological profiling for code and finance. Tactical synergy welcome.
+
+
+📧 Email: optionsample4@gmail.com
+
+🔗 Portfolio: 
+
+📁 GitHub: https://github.com/Mystique-cmd
+
+📜 LinkedIn: https://linkedin.com/in/hillary-muthee
+
+##🧾 License
+MIT License — fork, evolve, remix. Just respect the work, cite the creator, and keep things ethical.
+
+“Reconstruct. Reconfigure. Reconquer.” — Digital mantra for trace-based resilience
+
+If you want this copy fine-tuned for a specific repo (like your recon toolkit or DSA module), or embedded with your actual ASCII splash logo at the top — I can customize it even further. Just toss me the specs, or say “inject splash” and I’ll patch it like a seasoned sysadmin.
 
 ## 💻 Installation
 
@@ -44,26 +65,4 @@ Welcome to my digital command center — a hacker-themed interface styled in pur
 git clone https://github.com/your-username/terminal-portfolio
 cd terminal-portfolio
 bash run.sh
-🧠 About Me
-I'm Hillary Muthee — student, strategist, and aspiring ethical hacker. With roots in code and a flair for digital resilience, I engineer recon workflows, DSA simulations, and exploit environments that reflect both discipline and creativity. If it runs in the shadows and sparks curiosity, I’m likely building it or tracing it.
 
-🌍 Contact
-Let’s connect or collaborate on recon ops, backend engineering, trading strategies, or psychological profiling for code and finance. Tactical synergy welcome.
-
-💬 Twitter: @HillaryTheTrace
-
-📧 Email: hillary.muthee@domain.com
-
-🔗 Portfolio: https://hillarymuthee.dev
-
-📁 GitHub: https://github.com/hillary-muthee
-
-🕹️ Codepen: https://codepen.io/hillary-muthee
-
-📜 LinkedIn: https://linkedin.com/in/hillary-muthee
-🧾 License
-MIT License — fork, evolve, remix. Just respect the work, cite the creator, and keep things ethical.
-
-“Reconstruct. Reconfigure. Reconquer.” — Digital mantra for trace-based resilience
-
-If you want this copy fine-tuned for a specific repo (like your recon toolkit or DSA module), or embedded with your actual ASCII splash logo at the top — I can customize it even further. Just toss me the specs, or say “inject splash” and I’ll patch it like a seasoned sysadmin.
