@@ -50,7 +50,7 @@ Let’s connect or collaborate on recon ops, backend engineering, trading strate
 
 📁 GitHub: https://github.com/Mystique-cmd
 
-📜 LinkedIn: https://linkedin.com/in/hillary-
+📜 LinkedIn: https://linkedin.com/in/
 
 ##🧾 License
 MIT License — fork, evolve, remix. Just respect the work, cite the creator, and keep things ethical.
