@@ -50,7 +50,7 @@ Let’s connect or collaborate on recon ops, backend engineering, trading strate
 
 📁 GitHub: https://github.com/Mystique-cmd
 
-📜 LinkedIn: https://linkedin.com/in/hillary-muthee
+📜 LinkedIn: https://linkedin.com/in/hillary-
 
 ##🧾 License
 MIT License — fork, evolve, remix. Just respect the work, cite the creator, and keep things ethical.
@@ -64,5 +64,5 @@ If you want this copy fine-tuned for a specific repo (like your recon toolkit or
 ```bash
 git clone https://github.com/your-username/terminal-portfolio
 cd terminal-portfolio
-bash run.sh
+bash run
 
