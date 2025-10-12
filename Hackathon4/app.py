@@ -96,4 +96,61 @@ def run_simulator():
 
     for hour in range (1, NUM_INTERVALS +1):
         data = generate_sensor_data()
+
         soil_history.append(data["soil_moisture"])
+
+        watering = decide_watering(data["temperature"], data["humidity"], data["soil_moisture"])
+        shading = decide_shading(data["light"])
+        alert_triggered, risk_count = assess_risk(
+            data["temperature"],
+            data["humidity"],
+            data["co2"],
+            data["soil_moisture"],
+            data["light"]
+        )
+
+        alert_streak = alert_streak + 1 if alert_triggered else 0
+        critical_flag = alert_streak > 2
+        avg_moisture = moving_average(list(soil_history), SOIL_HISTORY_WINDOW)
+        recommendation = recommend_watering(avg_moisture)
+    
+        print(f"\n🌿 Interval {hour}")
+        print(f"Sensors → Temp: {data['temperature']}°C, Humidity: {data['humidity']}%, "
+              f"Light: {data['light']} lux, Soil: {data['soil_moisture']}%, CO₂: {data['co2']} ppm")
+        print(f"🚿 Watering: {watering}")
+        print(f"🌞 Shading: {shading}")
+        print(f"⚠️ Alert: {'Yes' if alert_triggered else 'No'} ({risk_count}/5 conditions met)")
+        if critical_flag:
+            print("🔥 Critical Risk Flag: TRIGGERED")
+        print(f"📊 Dashboard Recommendation: {recommendation}")
+
+        decision = {
+            "watering": watering,
+            "shading": shading,
+            "alert_triggered": "Yes" if alert_triggered else "No",
+            "recommendation": recommendation,
+            "critical_flag": "🔥 Critical" if critical_flag else "Normal"
+        }
+
+        log_to_csv(hour, data, decision)
+def main():
+    run_simulator()
+    
+    df = pd.read_csv("greenhouse_log.csv")
+    df.columns = df.columns.str.strip()
+
+    st.title("Smart Greenhouse Dashboard")
+    df = pd.read_csv("greenhouse_log.csv")
+
+    st.subheader("Sensor Data & AI Decisions")
+    st.dataframe(df)
+
+    st.subheader("Soil Moisture Trends")
+    st.line_chart(df["soil_moisture"])
+
+    st.subheader("Risk Alerts Over Time")
+    st.bar_chart(df["Alert"].value_counts())
+ 
+
+if __name__ == "__main__":
+    main()
